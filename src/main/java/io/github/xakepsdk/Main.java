@@ -40,8 +40,8 @@ public class Main extends JavaPlugin implements Listener {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
         if (cmd.getName().equalsIgnoreCase("dfp")) {
-            if(args.length != 0) {
-                if(args[0].equalsIgnoreCase("reload")) {
+            if (args.length != 0) {
+                if (args[0].equalsIgnoreCase("reload")) {
                     reloadConfig();
                     maxDamage = getConfig().getDouble("maxDamage");
                     sender.sendMessage("DFP was reloaded!");
