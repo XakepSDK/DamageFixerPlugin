@@ -1,0 +1,10 @@
+name: DamageFixerPlugin
+main: Main
+version: 0.1
+
+commands:
+  dfp:
+    description: DFP by Xakep_SDK 0.1-SNAPSHOT
+    usage: /dfp setmaxdamage <maxDamage> or reload
+    permission: damagefixerplugin.basic
+    permission-message: You don't have permissions!
